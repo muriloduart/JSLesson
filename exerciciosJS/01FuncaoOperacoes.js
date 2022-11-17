@@ -6,3 +6,15 @@ function calcularOperacoes (operador1, operador2) {
 }
 
 calcularOperacoes(1, 2)
+
+function myFunction() {
+    console.log("Hello World!")
+  }
+  myFunction()
+
+
+function oi(){
+    console.log("OLA", 1 + 2)
+  }
+
+  oi()
