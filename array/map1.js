@@ -1,4 +1,4 @@
-const nums = [1, 2, 3, 4, 5]
+const nums = [1, 2, 3, 4, 5]  // TRANSFORMAR UM ARRAY EM OUTRO
 
 //for com um propósito
 let resultado = nums.map(function(e){
