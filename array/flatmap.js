@@ -16,4 +16,12 @@ const escola = [{
             nota: 5.5
         }]
     }]
+
 }]
+
+const getNotaDoAluno = aluno => aluno.nota
+const getNotasDaTurma = turma => turma.alunos.map(getNotaDoAluno)
+
+
+const notas1 = escola.map(getNotasDaTurma)
+console.log(notas1)
