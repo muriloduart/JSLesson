@@ -10,3 +10,5 @@ Passo 4 - git push origin main
 
 
 git status
+
+npx http-server -c-1 . - Rodar server HTML
